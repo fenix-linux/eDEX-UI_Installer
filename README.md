@@ -7,7 +7,7 @@
 
 <h3>Uninstall:</h3>   
 <p>Copy and paste the code below into your terminal.</p>
-<code>wget https://raw.githubusercontent.com/fenixlinuxos/eDEX-UI_Installer/master/uninstall.sh && chmod +x ./uninstall.sh && ./install.sh && rm uninstall.sh</code><br><br>
+<code>wget https://raw.githubusercontent.com/fenixlinuxos/eDEX-UI_Installer/master/uninstall.sh && chmod +x ./uninstall.sh && ./unistall.sh && rm uninstall.sh</code><br><br>
 
 
 <img src=pictures/edexandbpytop.jpeg><br><br>
