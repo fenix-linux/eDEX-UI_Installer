@@ -14,7 +14,7 @@ mv eDEX-UI-Linux-x86_64.AppImage ../.
 
 echo "[Desktop Entry]
 Name=eDEX-UI 2.2.5
-Comment=eDEX-UI sci-fi interface
+Comment=eDEX-UI terminal sci-fi interface
 Exec="\""$HOME/eDEX-UI-Linux-x86_64.AppImage"\"" %U
 Terminal=false
 Type=Application
