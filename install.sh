@@ -1,25 +1,27 @@
 #!/bin/bash
-
+#eDEX-UI 64 bits installer
 cd
-rm -R eDEX-UI_Installer
+rm -Rf eDEX-UI_Installer &>/dev/null
 git clone https://github.com/fenixlinuxos/eDEX-UI_Installer
 cd eDEX-UI_Installer
-mv edex.png ../.local/share/icons
-rm -rf eDEX-UI-Linux-x86_64.AppImage &>/dev/null
-rm -rf ~/.local/share/applications/appimagekit-edex-ui-3.desktop &>/dev/null
+rm ../.local/share/icons/edex.png &>/dev/null
+mv edex.png ../.local/share/icons &>/dev/null
+rm -rf ../eDEX-UI-Linux-x86_64.AppImage &>/dev/null
+rm -rf ~/.local/share/applications/edex-ui-2.2.5.desktop &>/dev/null
 wget https://github.com/GitSquared/edex-ui/releases/download/v2.2.5/eDEX-UI-Linux-x86_64.AppImage || error 'Failed to download'
 chmod +x ./'eDEX-UI-Linux-x86_64.AppImage' || error 'Failed to mark as executable!'
 mv eDEX-UI-Linux-x86_64.AppImage ../.
 
 echo "[Desktop Entry]
-Name=eDEX-UI 3.0.0
+Name=eDEX-UI 2.2.5
 Comment=eDEX-UI sci-fi interface
 Exec="\""$HOME/eDEX-UI-Linux-x86_64.AppImage"\"" %U
 Terminal=false
 Type=Application
 Icon=$HOME/.local/share/icons/edex.png
 StartupWMClass=eDEX-UI
-X-AppImage-Version=3.0.0
-Categories=System;" > ~/.local/share/applications/appimagekit-edex-ui-3.desktop
+X-AppImage-Version=2.2.5
+Categories=System;" > ~/.local/share/applications/edex-ui-2.2.5.desktop
 
-rm -R ../eDEX-UI_Installer
+rm -Rf ../eDEX-UI_Installer &>/dev/null
+exit 0
