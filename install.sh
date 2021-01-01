@@ -1,5 +1,5 @@
 #!/bin/bash
-#eDEX-UI 64 bits installer
+#eDEX-UI 64 bits installer by androrama | fenixlinux.com
 cd
 rm -Rf eDEX-UI_Installer &>/dev/null
 git clone https://github.com/fenixlinuxos/eDEX-UI_Installer
