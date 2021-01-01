@@ -5,6 +5,10 @@
 <p>Copy and paste the code below into your terminal.</p>
 <code>wget https://raw.githubusercontent.com/fenixlinuxos/eDEX-UI_Installer/master/install.sh && chmod +x ./install.sh && ./install.sh && rm install.sh</code><br><br>
 
+<h3>Uninstall:</h3>   
+<p>Copy and paste the code below into your terminal.</p>
+<code>wget https://raw.githubusercontent.com/fenixlinuxos/eDEX-UI_Installer/master/install.sh && chmod +x ./install.sh && ./install.sh && rm uninstall.sh</code><br><br>
+
 
 <img src=pictures/edexandbpytop.jpeg><br><br>
 <a href=https://github.com/GitSquared/edex-ui>eDEX-UI official website</a>
