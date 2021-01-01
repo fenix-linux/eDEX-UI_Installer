@@ -16,4 +16,9 @@
 <br><br>
 
 <img src=pictures/edexandbpytop.jpeg><br><br>
-<a href=https://github.com/GitSquared/edex-ui>eDEX-UI official website</a>
+<a href=https://github.com/GitSquared/edex-ui>eDEX-UI official website</a><br>
+<p>You can download more appimage applications from here: https://appimage.github.io/apps/ and create your own installers making simple tweaks to the code.</p><br>
+<p>I plan to make more installers and a store.</p><br>
+
+
+
