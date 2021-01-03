@@ -15,7 +15,7 @@
 <code>curl https://raw.githubusercontent.com/fenixlinuxos/eDEX-UI_Installer/master/uninstall.sh | bash </code>
 <br><br>
 
-<img src=pictures/edexandbpytop.jpeg><br><br>
+<img src=pictures/edexbpytop.jpeg><br><br>
 <a href=https://github.com/GitSquared/edex-ui>eDEX-UI official website</a><br>
 <p>You can download more appimage applications from here: https://appimage.github.io/apps/ and create your own installers making simple changes.</p>
 <p>I plan to make more installers and a store.</p><br>
