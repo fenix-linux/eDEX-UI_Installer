@@ -1,4 +1,5 @@
 #!/bin/bash
+#This script is made for Fenix OS Neon, but it should work fine on most distros.
 #eDEX-UI 64 bits installer by androrama | fenixlinux.com
 cd
 rm -Rf eDEX-UI_Installer &>/dev/null
