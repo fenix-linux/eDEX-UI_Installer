@@ -1,5 +1,7 @@
 # eDEX-UI_Installer
 
+<p>This script is made for Fenix OS Neon, but it should work fine on most distros.</p>
+
 <p>This script downloads the eDEX-UI appimage, grants execution permissions and creates a menu shortcut with an icon. Made by androrama | fenixlinux.com </p>
 <h3>Install:</h3>   
 <p>Copy and paste the code below into your terminal.</p>
@@ -20,5 +22,3 @@
 <p>You can download more appimage applications from here: https://appimage.github.io/apps/ and create your own installers making simple changes.</p>
 <p>I plan to make more installers and a store.</p><br>
 
-
-<p>This script is made for Fenix OS Neon, but it should work fine on most distros.</p>
