@@ -21,4 +21,4 @@
 <p>I plan to make more installers and a store.</p><br>
 
 
-
+<p>This script is made for Fenix OS Neon, but it should work fine on most distros.</p>
