@@ -121,7 +121,7 @@ get_download_url() {
 
 show_support_message() {
     if zenity --info --width=400 \
-        --text="eDEX-UI installed successfully!\n\nIf you enjoy this app, consider supporting the developers:\n- Star the project on GitHub\n- Leave a thank-you message\n- Buy them a coffee\n\nFree software lives thanks to people like you."
+        --text="eDEX-UI installed successfully!\nYou can find it in your application menu.\n\nIf you enjoy this app, consider supporting the developers:\n- Star the project on GitHub\n- Leave a thank-you message\n- Buy them a coffee\n\nFree software lives thanks to people like you."
     then
         xdg-open "https://github.com/${REPO_PRIMARY}/releases" &>/dev/null || true
         xdg-open 'https://fenixlinux.com/pdownload' &>/dev/null || true

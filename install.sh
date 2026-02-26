@@ -85,5 +85,5 @@ EOF
 # Cleanup installer directory
 cd "$HOME"
 rm -Rf eDEX-UI_Installer &>/dev/null || true
-echo "eDEX-UI installed successfully!"
+echo "eDEX-UI installed successfully! You can find it in your application menu."
 exit 0
