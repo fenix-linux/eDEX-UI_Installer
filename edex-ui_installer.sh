@@ -97,7 +97,7 @@ create_desktop_entry() {
 [Desktop Entry]
 Name=eDEX-UI
 Comment=eDEX-UI terminal sci-fi interface
-Exec="$APPIMAGE_DIR/$APPIMAGE_NAME" %U
+Exec="$APPIMAGE_DIR/$APPIMAGE_NAME" --no-sandbox %U
 Terminal=false
 Type=Application
 Icon=$ICON_FILE
@@ -121,7 +121,7 @@ get_download_url() {
 
 show_support_message() {
     if zenity --info --width=400 \
-        --text="That's all, don't forget to support the developers of these amazing applications if you like them.\nMany developers abandon their projects because they can't have a hobby while taking care of their families, especially now.\nIt is also important that developers feel like their work is meaningful with messages of support.\nIf there were more people thanking in any way the developers who make free software a lot of proprietary software would have its days counted."
+        --text="eDEX-UI installed successfully!\n\nIf you enjoy this app, consider supporting the developers:\n- Star the project on GitHub\n- Leave a thank-you message\n- Buy them a coffee\n\nFree software lives thanks to people like you."
     then
         xdg-open "https://github.com/${REPO_PRIMARY}/releases" &>/dev/null || true
         xdg-open 'https://fenixlinux.com/pdownload' &>/dev/null || true

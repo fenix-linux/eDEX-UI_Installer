@@ -73,7 +73,7 @@ cat > "$HOME/.local/share/applications/edex-ui.desktop" <<EOF
 [Desktop Entry]
 Name=eDEX-UI 2.2.8
 Comment=eDEX-UI terminal sci-fi interface
-Exec="$HOME/$APPIMAGE_NAME" %U
+Exec="$HOME/$APPIMAGE_NAME" --no-sandbox %U
 Terminal=false
 Type=Application
 Icon=$HOME/.local/share/icons/edex.png
